@@ -18,7 +18,7 @@ let data = [
 
 // app.get('/',(req,res)=> {
 //     res.send('Halaman Root"')
-// })
+//})
 
 app.use('/mahasiswa',(req,res,next) => {
     if(req.body.nim) {
